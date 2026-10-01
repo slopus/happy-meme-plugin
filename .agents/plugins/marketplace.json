@@ -1,0 +1,17 @@
+{
+  "name": "happy-meme-plugin",
+  "plugins": [
+    {
+      "name": "happy-memes",
+      "source": {
+        "source": "local",
+        "path": "./plugins/happy-memes"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Creativity"
+    }
+  ]
+}
