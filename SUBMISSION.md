@@ -34,7 +34,7 @@ Docs: https://developers.openai.com/plugins/deploy/submission · limits: https:/
 
 Decisions to make before uploading:
 - **Name.** The guidelines say to avoid "overly generic names, especially single-word dictionary terms that aren't explicitly tied to your brand", so plain "Meme"/"Memes" would likely be flagged. That's why the display name is **Happy Memes** and the package is `happy-memes`. Users still invoke the skill as `meme`.
-- **Privacy policy.** The guidelines require a published privacy policy. https://happy.engineering/privacy/ is live, but it describes the Happy app. Consider adding one line: "the Happy Memes plugin collects no data; it runs entirely inside ChatGPT/Codex."
+- **Listing URLs.** The manifest points at https://happy.engineering/plugins/memes/, /plugins/privacy/ and /plugins/terms/. Confirm they load before uploading.
 - **Copyright.** The guidelines say to use only IP you own or have permission to use. The skill tells the model to recreate meme *layouts* with original characters rather than copy template photos or real people, so the plugin stays clear of that.
 
 ## Muse Code (Meta)

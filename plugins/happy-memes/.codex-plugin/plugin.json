@@ -22,9 +22,9 @@
       "Give me 3 meme options about something trending today"
     ],
     "brandColor": "#9E5622",
-    "websiteURL": "https://happy.engineering",
-    "privacyPolicyURL": "https://happy.engineering/privacy/",
-    "termsOfServiceURL": "https://happy.engineering/terms/",
+    "websiteURL": "https://happy.engineering/plugins/memes/",
+    "privacyPolicyURL": "https://happy.engineering/plugins/privacy/",
+    "termsOfServiceURL": "https://happy.engineering/plugins/terms/",
     "composerIcon": "./assets/composer-icon.png",
     "logo": "./assets/logo.png"
   }

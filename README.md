@@ -8,7 +8,9 @@ See [`examples/`](examples/README.md) for 20 memes from the first test run (Oct 
 
 ## Install
 
-Codex / ChatGPT desktop:
+ChatGPT: find **Happy Memes** in the plugin directory (submission pending).
+
+Codex, or ChatGPT desktop from this repo:
 
 ```sh
 codex plugin marketplace add slopus/happy-meme-plugin

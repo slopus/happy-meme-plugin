@@ -126,6 +126,22 @@ The mix:
 - **Origin:** Riff on [@Oldnoob007](https://x.com/Oldnoob007/status/2105544350424072371) ("Argon dropped. i still can't use it"). It uses the classic waiting-skeleton format, which fits spooky season.
 - **How to post:** Standalone. Better if posted a week or more from now, while Argon still isn't available.
 
+### 21 AI agent receipt
+![](ai/21-agent-receipt.jpg)
+- **Post copy:** It was a very thorough typo.
+- **Alt text:** A thermal store receipt next to a laptop: "AI AGENT. ORDER: fix 1 typo. Files changed 47. Tests added 0. Tip? 15% 20% 25%."
+- **Moment:** Evergreen. Coding agents doing far more than you asked.
+- **Origin:** Original. Added after the first run as a news-free example.
+- **How to post:** Standalone, any time.
+
+### 22 AI agent at work
+![](ai/22-agent-at-work-sign.jpg)
+- **Post copy:** Hard hats required in the repo.
+- **Alt text:** An orange road-work sign standing in an empty open-plan office: "AI AGENT AT WORK", with a plate below: "DO NOT ASK WHAT IT CHANGED."
+- **Moment:** Evergreen. Letting an agent loose on a codebase.
+- **Origin:** Original. Added after the first run as a news-free example.
+- **How to post:** Standalone, any time.
+
 ## General audience
 
 ### 14 Sept 30 / Oct 1 / Nov 1
