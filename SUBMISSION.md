@@ -10,7 +10,7 @@ plugins/happy-memes/               plugin root
 ├── .codex-plugin/plugin.json      ChatGPT + Codex manifest (the format the portal normalizes to)
 ├── .muse-plugin/plugin.json       Muse Code manifest (native shape; Muse ignores the Codex one)
 ├── skills/meme/SKILL.md           the skill (≈50 lines)
-└── assets/logo.png (1024²), composer-icon.png (256²)   Happy brutalist avatar "Brutalism-118", #FFD800 on #4C1D95
+└── assets/logo.png (1024²), composer-icon.png (256²)   Happy bot face: DiceBear Adventurer Neutral, seed "happy-memes"
 dist/happy-memes-<version>.zip     submission ZIP (not committed): only .codex-plugin, skills, assets
 ```
 

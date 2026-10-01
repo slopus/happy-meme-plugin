@@ -32,13 +32,17 @@ plugins/happy-memes/
   .codex-plugin/plugin.json        ChatGPT + Codex manifest and directory listing
   .muse-plugin/plugin.json         Muse Code manifest
   skills/meme/SKILL.md             the skill
-  assets/                          logo and composer icon (Happy brutalist avatar)
+  assets/                          logo and composer icon (a Happy bot face)
 scripts/build.sh                   validate and build dist/happy-memes-<version>.zip
 scripts/validate.py                checks OpenAI's documented listing limits
-scripts/render_icon.py             renders the icon from Happy's avatar tiles
+scripts/render_icon.mjs            renders the icon as a Happy bot face (DiceBear, seed "happy-memes")
 examples/                          test-run memes
 ```
 
 ## Release
 
 Bump `version` in both manifests, then run `scripts/build.sh` and follow [SUBMISSION.md](SUBMISSION.md).
+
+## Credits
+
+The icon is a Happy bot face: [Adventurer Neutral](https://www.figma.com/community/file/1184595184137881796) by [Lisa Wischofsky](https://www.instagram.com/lischi_art/), remixed by [DiceBear](https://www.dicebear.com), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Regenerate it with `scripts/render_icon.mjs` after `npm i --no-save @dicebear/core @dicebear/styles sharp`.
