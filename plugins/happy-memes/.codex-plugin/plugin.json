@@ -1,6 +1,6 @@
 {
   "name": "happy-memes",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Make funny, postable image memes about news, launches, trends, and everyday moments.",
   "author": {
     "name": "Happy",
@@ -23,6 +23,7 @@
     ],
     "brandColor": "#C6814F",
     "websiteURL": "https://happy.engineering/plugins/memes/",
+    "supportURL": "https://github.com/slopus/happy-meme-plugin/issues",
     "privacyPolicyURL": "https://happy.engineering/plugins/privacy/",
     "termsOfServiceURL": "https://happy.engineering/plugins/terms/",
     "composerIcon": "./assets/composer-icon.png",

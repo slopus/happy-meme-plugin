@@ -5,7 +5,7 @@ description: Make funny, postable image memes about a news story, product launch
 
 # Meme
 
-The user's explicit instructions (topic, format, tone, wording, count) override everything below.
+Follow the user's requested topic, format, tone, wording and count while respecting the host's instructions, safety policies, and the limits below.
 
 ## What makes a meme work
 

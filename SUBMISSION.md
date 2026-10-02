@@ -27,7 +27,7 @@ Verified locally with Codex CLI 0.159.2 using an isolated `CODEX_HOME`: `codex p
 Docs: https://developers.openai.com/plugins/deploy/submission · limits: https://developers.openai.com/plugins/deploy/submission-errors · policy: https://developers.openai.com/plugins/plugin-guidelines
 
 1. **Identity.** In platform.openai.com → Settings → Organization → General, finish individual or business verification. The listing's developer name comes from this identity, whatever the ZIP says. You need to be an org owner or have the Apps Management Write role.
-2. **Upload.** Go to https://platform.openai.com/plugins → **Upload new or existing plugin** → pick the verified identity → choose **Skills only** → upload `dist/happy-memes-0.1.1.zip`.
+2. **Upload.** Go to https://platform.openai.com/plugins → **Upload new or existing plugin** → pick the verified identity → choose **Skills only** → upload `dist/happy-memes-0.1.2.zip`.
 3. **Checks.** Under **Metadata & Skills**, wait for the metadata checks and the skill safety scan (the scan can take up to 2 hours). Use **Copy issues** → fix → re-upload.
 4. **Submit for review** and complete the policy attestations. Skills-only plugins don't need MCP test cases, a demo video or screenshots.
 5. **After approval, select Publish plugin.** Approval alone doesn't publish anything.

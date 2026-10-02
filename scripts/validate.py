@@ -40,7 +40,7 @@ check(ui["category"] in {"Productivity", "Creativity", "Developer Tools", "Busin
 prompts = ui.get("defaultPrompt", [])
 check(len(prompts) <= 3 and len({" ".join(p.split()).lower() for p in prompts}) == len(prompts), "<=3 unique prompts")
 check(all(0 < len(p) <= 128 and "@" not in p for p in prompts), "prompt length/@mention")
-for k in ("websiteURL", "privacyPolicyURL", "termsOfServiceURL"):
+for k in ("websiteURL", "supportURL", "privacyPolicyURL", "termsOfServiceURL"):
     check(ui[k].startswith("https://") and len(ui[k]) <= 1024, k)
 
 for k in ("logo", "composerIcon"):
