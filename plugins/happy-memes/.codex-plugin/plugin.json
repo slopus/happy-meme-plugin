@@ -10,9 +10,9 @@
   "keywords": ["meme", "memes", "humor", "image generation", "social media"],
   "skills": "./skills/",
   "interface": {
-    "displayName": "Happy Memes",
+    "displayName": "Memes",
     "shortDescription": "Turn any moment into a meme",
-    "longDescription": "Happy Memes turns a news story, product launch, trend, or everyday situation into an image meme you can post.\n\nIt checks what actually happened when browsing is available, drafts several joke angles before drawing anything, picks a meme format whose logic fits the joke, and writes an image prompt that keeps captions short, spelled exactly, and readable at a glance. Each meme comes with suggested post copy, alt text, and a one-line note on the moment it references.\n\nHappy Memes avoids real people's likenesses, fabricated quotes, and jokes at the expense of victims, and keeps results suitable for a general audience. It uses built-in image generation and connects to no outside services.",
+    "longDescription": "Memes turns a news story, product launch, trend, or everyday situation into an image meme you can post.\n\nIt checks what actually happened when browsing is available, drafts several joke angles before drawing anything, picks a meme format whose logic fits the joke, and writes an image prompt that keeps captions short, spelled exactly, and readable at a glance. Each meme comes with suggested post copy, alt text, and a one-line note on the moment it references.\n\nMemes avoids real people's likenesses, fabricated quotes, and jokes at the expense of victims, and keeps results suitable for a general audience. It uses built-in image generation and connects to no outside services.",
     "developerName": "Happy",
     "category": "Creativity",
     "capabilities": [],
@@ -21,7 +21,7 @@
       "Turn this into a meme: my 15-minute standup ran an hour",
       "Give me 3 meme options about something trending today"
     ],
-    "brandColor": "#9E5622",
+    "brandColor": "#ECAD80",
     "websiteURL": "https://happy.engineering/plugins/memes/",
     "privacyPolicyURL": "https://happy.engineering/plugins/privacy/",
     "termsOfServiceURL": "https://happy.engineering/plugins/terms/",

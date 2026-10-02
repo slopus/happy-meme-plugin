@@ -1,4 +1,4 @@
-# Happy Memes: test run, 2026-10-01
+# Memes: test run, 2026-10-01
 
 Twenty image memes made with [`plugins/happy-memes/skills/meme/SKILL.md`](../plugins/happy-memes/skills/meme/SKILL.md), using GPT image generation and fresh research on that week's news. Images here are JPEG copies of the PNG originals. Nothing has been posted.
 

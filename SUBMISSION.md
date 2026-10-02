@@ -1,4 +1,4 @@
-# Happy Memes: submission runbook
+# Memes: submission runbook
 
 Nothing has been submitted. Everything below is ready to run by hand.
 
@@ -10,7 +10,7 @@ plugins/happy-memes/               plugin root
 ├── .codex-plugin/plugin.json      ChatGPT + Codex manifest (the format the portal normalizes to)
 ├── .muse-plugin/plugin.json       Muse Code manifest (native shape; Muse ignores the Codex one)
 ├── skills/meme/SKILL.md           the skill (≈50 lines)
-└── assets/logo.png (1024²), composer-icon.png (256²)   Happy bot face: DiceBear Adventurer Neutral, seed "happy-memes"
+└── assets/logo.png (1024²), composer-icon.png (256²)   Happy bot face: DiceBear Adventurer Neutral, seed "memes-face-04"
 dist/happy-memes-<version>.zip     submission ZIP (not committed): only .codex-plugin, skills, assets
 ```
 
@@ -33,7 +33,7 @@ Docs: https://developers.openai.com/plugins/deploy/submission · limits: https:/
 5. **After approval, select Publish plugin.** Approval alone doesn't publish anything.
 
 Decisions to make before uploading:
-- **Name.** The guidelines say to avoid "overly generic names, especially single-word dictionary terms that aren't explicitly tied to your brand", so plain "Meme"/"Memes" would likely be flagged. That's why the display name is **Happy Memes** and the package is `happy-memes`. Users still invoke the skill as `meme`.
+- **Name.** The display name is **Memes**, as chosen by the user. The package identifier is `happy-memes`; the skill is `meme`.
 - **Listing URLs.** The manifest points at https://happy.engineering/plugins/memes/, /plugins/privacy/ and /plugins/terms/. Confirm they load before uploading.
 - **Copyright.** The guidelines say to use only IP you own or have permission to use. The skill tells the model to recreate meme *layouts* with original characters rather than copy template photos or real people, so the plugin stays clear of that.
 

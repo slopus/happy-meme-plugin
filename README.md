@@ -1,4 +1,4 @@
-# Happy Memes
+# Memes
 
 A skills-only plugin for ChatGPT, Codex and Muse Code that turns a news story, launch, trend or everyday moment into an image meme you can post.
 
@@ -8,7 +8,7 @@ See [`examples/`](examples/README.md) for 20 memes from the first test run (Oct 
 
 ## Install
 
-ChatGPT: find **Happy Memes** in the plugin directory (submission pending).
+ChatGPT: find **Memes** in the plugin directory (submission pending).
 
 Codex, or ChatGPT desktop from this repo:
 
@@ -37,7 +37,7 @@ plugins/happy-memes/
   assets/                          logo and composer icon (a Happy bot face)
 scripts/build.sh                   validate and build dist/happy-memes-<version>.zip
 scripts/validate.py                checks OpenAI's documented listing limits
-scripts/render_icon.mjs            renders the icon as a Happy bot face (DiceBear, seed "happy-memes")
+scripts/render_icon.mjs            renders the icon as a Happy bot face (DiceBear, seed "memes-face-04")
 examples/                          test-run memes
 ```
 

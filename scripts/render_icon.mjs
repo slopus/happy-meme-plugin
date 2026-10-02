@@ -13,7 +13,7 @@ const { Avatar, Style } = await import("@dicebear/core");
 const adventurerNeutral = require("@dicebear/styles/adventurer-neutral.json");
 const sharp = require("sharp");
 
-const seed = process.argv[2] ?? "happy-memes";
+const seed = process.argv[2] ?? "memes-face-04";
 const assets = path.join(path.dirname(fileURLToPath(import.meta.url)), "../plugins/happy-memes/assets");
 const style = new Style(adventurerNeutral);
 
