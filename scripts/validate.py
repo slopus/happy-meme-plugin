@@ -11,6 +11,23 @@ def check(ok, msg):
     if not ok:
         errors.append(msg)
 
+def luminance(color):
+    channels = [int(color[i:i + 2], 16) / 255 for i in (1, 3, 5)]
+    linear = [c / 12.92 if c <= 0.04045 else ((c + 0.055) / 1.055) ** 2.4 for c in channels]
+    return sum(c * weight for c, weight in zip(linear, (0.2126, 0.7152, 0.0722)))
+
+for field, background in (("brandColor", "#FFFFFF"), ("brandColorDark", "#212121")):
+    if field not in ui:
+        continue
+    color = ui[field]
+    valid = isinstance(color, str) and re.fullmatch(r"#[0-9a-fA-F]{6}", color)
+    check(valid, f"{field}: six-digit hex color")
+    if valid:
+        light, dark = sorted((luminance(color), luminance(background)), reverse=True)
+        contrast = (light + 0.05) / (dark + 0.05)
+        check(contrast >= 2, f"{field}: contrast {contrast:.2f}:1 against {background}, requires >= 2:1")
+        print(f"{field}={color} contrast={contrast:.2f}:1 against {background}")
+
 check(re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9_-]{0,63}", m["name"]), "package name")
 check(re.fullmatch(r"\d+\.\d+\.\d+", m["version"]), "semver")
 check(0 < len(ui["displayName"]) <= 30 and "\n" not in ui["displayName"], "displayName <= 30")
@@ -53,3 +70,4 @@ if len(sys.argv) > 2:
     check(os.path.getsize(sys.argv[2]) <= 100 * 1024 * 1024, "zip <= 100 MB")
     check(not any(n.startswith((".muse-plugin", ".agents")) for n in names), "zip has only the OpenAI package")
 print("OK" if not errors else "ERRORS: " + "; ".join(errors))
+sys.exit(1 if errors else 0)

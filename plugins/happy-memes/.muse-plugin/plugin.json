@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "name": "happy-memes",
-  "displayName": "Memes",
-  "version": "0.1.0",
+  "displayName": "Happy Memes",
+  "version": "0.1.1",
   "description": "Make funny, postable image memes about news, launches, trends, and everyday moments.",
   "compat": { "source": "native", "manifestDir": ".muse-plugin" },
   "capabilities": {

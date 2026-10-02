@@ -1,4 +1,4 @@
-# Memes: submission runbook
+# Happy Memes: submission runbook
 
 Nothing has been submitted. Everything below is ready to run by hand.
 
@@ -27,13 +27,13 @@ Verified locally with Codex CLI 0.159.2 using an isolated `CODEX_HOME`: `codex p
 Docs: https://developers.openai.com/plugins/deploy/submission · limits: https://developers.openai.com/plugins/deploy/submission-errors · policy: https://developers.openai.com/plugins/plugin-guidelines
 
 1. **Identity.** In platform.openai.com → Settings → Organization → General, finish individual or business verification. The listing's developer name comes from this identity, whatever the ZIP says. You need to be an org owner or have the Apps Management Write role.
-2. **Upload.** Go to https://platform.openai.com/plugins → **Upload new or existing plugin** → pick the verified identity → choose **Skills only** → upload `dist/happy-memes-0.1.0.zip`.
+2. **Upload.** Go to https://platform.openai.com/plugins → **Upload new or existing plugin** → pick the verified identity → choose **Skills only** → upload `dist/happy-memes-0.1.1.zip`.
 3. **Checks.** Under **Metadata & Skills**, wait for the metadata checks and the skill safety scan (the scan can take up to 2 hours). Use **Copy issues** → fix → re-upload.
 4. **Submit for review** and complete the policy attestations. Skills-only plugins don't need MCP test cases, a demo video or screenshots.
 5. **After approval, select Publish plugin.** Approval alone doesn't publish anything.
 
 Decisions to make before uploading:
-- **Name.** The display name is **Memes**, as chosen by the user. The package identifier is `happy-memes`; the skill is `meme`.
+- **Name.** The display name is **Happy Memes**, as chosen by the user after the portal rejected the generic name "Memes". The package identifier is `happy-memes`; the skill is `meme`.
 - **Listing URLs.** The manifest points at https://happy.engineering/plugins/memes/, /plugins/privacy/ and /plugins/terms/. Confirm they load before uploading.
 - **Copyright.** The guidelines say to use only IP you own or have permission to use. The skill tells the model to recreate meme *layouts* with original characters rather than copy template photos or real people, so the plugin stays clear of that.
 
